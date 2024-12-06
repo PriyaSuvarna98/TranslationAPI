@@ -23,7 +23,7 @@ async function translate(text, language) {
     queryParameters: {
         //'api-version': "3.0",
       to: language,
-      from: "en",
+      //from: "en",
     },
   });
 
